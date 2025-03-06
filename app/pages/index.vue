@@ -1,11 +1,13 @@
 <script setup lang="ts">
-import MyComponent from "~/components/MyComponent.vue";
+import ColorPicker from "~/components/ColorPicker.vue";
+
+const color = ref<string>('#30cca2')
 </script>
 
 <template>
   <div>
     <h1>Home</h1>
-    <MyComponent />
+    <ColorPicker v-model="color"/>
   </div>
 </template>
 
