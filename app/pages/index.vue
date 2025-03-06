@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ColorPicker from "~/components/ColorPicker.vue";
+import ColorPicker from '~/components/ColorPicker.vue'
 
 const color = ref<string>('#30cca2')
 </script>
@@ -7,10 +7,8 @@ const color = ref<string>('#30cca2')
 <template>
   <div>
     <h1>Home</h1>
-    <ColorPicker v-model="color"/>
+    <ColorPicker v-model="color" />
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

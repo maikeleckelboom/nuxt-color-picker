@@ -2,12 +2,10 @@
   "tailwindPreserveWhitespace": false,
   "tailwindPreserveDuplicates": false,
   "tailwindStylesheet": "./app/assets/css/app.css",
-  "tailwindFunctions": [
-    "clsx",
-    "cn",
-    "cx"
-  ],
-  "plugins": [
-    "prettier-plugin-tailwindcss"
-  ]
+  "tailwindFunctions": ["clsx", "cn", "cx"],
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "printWidth": 90,
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true
 }

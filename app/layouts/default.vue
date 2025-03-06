@@ -1,13 +1,12 @@
-<script lang="ts" setup>
-
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <div class="size-full flex flex-col overflow-hidden items-start justify-start" data-class="default-layout">
-    <slot/>
+  <div
+    class="flex size-full flex-col items-start justify-start overflow-hidden"
+    data-class="default-layout"
+  >
+    <slot />
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
