@@ -1,5 +1,5 @@
-@import "../../../layers/ui/assets/css/tailwind.css";
+@import "tailwindcss";
 
-@theme {
-
+body {
+    padding: 12em;
 }
